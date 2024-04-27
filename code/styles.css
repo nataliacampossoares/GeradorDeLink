@@ -17,6 +17,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
     width: 25rem;
     border-radius: 8px;
@@ -65,18 +66,26 @@ button {
     width: 40px;
     border: none;
     border-radius: 5px;
+    margin-bottom: 16px;
 }
 
 .link {
+    display: none;
     padding: 8px;
     border: 1px solid #565656;
     width: 80%;
     margin: auto;
-    margin-bottom: 16px;
     height: 32px;
-    display: none;
     font-family: "Poppins";
     border-radius: 7px;
-    display: flex;
-    align-items: center
+    align-items: center;
+}
+
+p {
+    font-family: "Poppins";
+    font-size: small;
+    display: none;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: #565656;
 }
